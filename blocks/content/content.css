@@ -1,0 +1,31 @@
+.content {
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 92px;
+    padding-top: 56px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1120px) {
+    .content {
+        max-width: 1024px;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .content {
+        max-width: 768px;
+        padding-top: 48px;
+        row-gap: 88px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .content {
+        max-width: 320px;
+        padding-top: 48px;
+        row-gap: 64px;
+    }
+}
