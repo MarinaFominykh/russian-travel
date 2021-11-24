@@ -2,8 +2,19 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    row-gap: 80px;
     margin: 0;
     padding: 0;
-    max-width: 984px;
+}
+
+@media screen and (max-width: 960px) {
+    .places__content {
+        row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .places__content {
+        row-gap: 50px;
+    }
 }
