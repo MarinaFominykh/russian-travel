@@ -5,6 +5,7 @@
     row-gap: 92px;
     padding-top: 56px;
     margin: auto;
+    /* border: 2px solid red; */
 }
 
 @media screen and (max-width: 1120px) {
