@@ -5,6 +5,7 @@
     color: #FFFFFF;
     margin: 0;
     transition: .5s;
+    letter-spacing: 0;
 }
 
 .places__link:hover {

@@ -2,11 +2,24 @@
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    grid-template-columns: repeat(auto-fit, 284px);
+    grid-template-rows: repeat(auto-fit, 213px);
     gap: 16px;
     margin: 0;
     justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .photo-grid__list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+        gap: 16px;
+        margin: 0;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 1120px) {
